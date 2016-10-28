@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC1DC72D1DC2E0A90099F0A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1DC72C1DC2E0A90099F0A9 /* AppDelegate.swift */; };
+		FC1DC72F1DC2E0A90099F0A9 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1DC72E1DC2E0A90099F0A9 /* MasterViewController.swift */; };
+		FC1DC7311DC2E0A90099F0A9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1DC7301DC2E0A90099F0A9 /* DetailViewController.swift */; };
+		FC1DC7341DC2E0A90099F0A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC1DC7321DC2E0A90099F0A9 /* Main.storyboard */; };
+		FC1DC7361DC2E0A90099F0A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC1DC7351DC2E0A90099F0A9 /* Assets.xcassets */; };
+		FC1DC7391DC2E0A90099F0A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC1DC7371DC2E0A90099F0A9 /* LaunchScreen.storyboard */; };
+		FC1DC7441DC2E0A90099F0A9 /* CloudNotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1DC7431DC2E0A90099F0A9 /* CloudNotesTests.swift */; };
+		FC1DC74F1DC2E0A90099F0A9 /* CloudNotesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1DC74E1DC2E0A90099F0A9 /* CloudNotesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC1DC7401DC2E0A90099F0A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC1DC7211DC2E0A80099F0A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC1DC7281DC2E0A80099F0A9;
+			remoteInfo = CloudNotes;
+		};
+		FC1DC74B1DC2E0A90099F0A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC1DC7211DC2E0A80099F0A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC1DC7281DC2E0A80099F0A9;
+			remoteInfo = CloudNotes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC1DC7291DC2E0A90099F0A9 /* CloudNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC1DC72C1DC2E0A90099F0A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC1DC72E1DC2E0A90099F0A9 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		FC1DC7301DC2E0A90099F0A9 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		FC1DC7331DC2E0A90099F0A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC1DC7351DC2E0A90099F0A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC1DC7381DC2E0A90099F0A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC1DC73A1DC2E0A90099F0A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC1DC73F1DC2E0A90099F0A9 /* CloudNotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudNotesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC1DC7431DC2E0A90099F0A9 /* CloudNotesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudNotesTests.swift; sourceTree = "<group>"; };
+		FC1DC7451DC2E0A90099F0A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC1DC74A1DC2E0A90099F0A9 /* CloudNotesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudNotesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC1DC74E1DC2E0A90099F0A9 /* CloudNotesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudNotesUITests.swift; sourceTree = "<group>"; };
+		FC1DC7501DC2E0A90099F0A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC1DC7261DC2E0A80099F0A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC1DC73C1DC2E0A90099F0A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC1DC7471DC2E0A90099F0A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC1DC7201DC2E0A80099F0A9 = {
+			isa = PBXGroup;
+			children = (
+				FC1DC72B1DC2E0A90099F0A9 /* CloudNotes */,
+				FC1DC7421DC2E0A90099F0A9 /* CloudNotesTests */,
+				FC1DC74D1DC2E0A90099F0A9 /* CloudNotesUITests */,
+				FC1DC72A1DC2E0A90099F0A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC1DC72A1DC2E0A90099F0A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC1DC7291DC2E0A90099F0A9 /* CloudNotes.app */,
+				FC1DC73F1DC2E0A90099F0A9 /* CloudNotesTests.xctest */,
+				FC1DC74A1DC2E0A90099F0A9 /* CloudNotesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC1DC72B1DC2E0A90099F0A9 /* CloudNotes */ = {
+			isa = PBXGroup;
+			children = (
+				FC1DC72C1DC2E0A90099F0A9 /* AppDelegate.swift */,
+				FC1DC72E1DC2E0A90099F0A9 /* MasterViewController.swift */,
+				FC1DC7301DC2E0A90099F0A9 /* DetailViewController.swift */,
+				FC1DC7321DC2E0A90099F0A9 /* Main.storyboard */,
+				FC1DC7351DC2E0A90099F0A9 /* Assets.xcassets */,
+				FC1DC7371DC2E0A90099F0A9 /* LaunchScreen.storyboard */,
+				FC1DC73A1DC2E0A90099F0A9 /* Info.plist */,
+			);
+			path = CloudNotes;
+			sourceTree = "<group>";
+		};
+		FC1DC7421DC2E0A90099F0A9 /* CloudNotesTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC1DC7431DC2E0A90099F0A9 /* CloudNotesTests.swift */,
+				FC1DC7451DC2E0A90099F0A9 /* Info.plist */,
+			);
+			path = CloudNotesTests;
+			sourceTree = "<group>";
+		};
+		FC1DC74D1DC2E0A90099F0A9 /* CloudNotesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC1DC74E1DC2E0A90099F0A9 /* CloudNotesUITests.swift */,
+				FC1DC7501DC2E0A90099F0A9 /* Info.plist */,
+			);
+			path = CloudNotesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC1DC7281DC2E0A80099F0A9 /* CloudNotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC1DC7531DC2E0A90099F0A9 /* Build configuration list for PBXNativeTarget "CloudNotes" */;
+			buildPhases = (
+				FC1DC7251DC2E0A80099F0A9 /* Sources */,
+				FC1DC7261DC2E0A80099F0A9 /* Frameworks */,
+				FC1DC7271DC2E0A80099F0A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CloudNotes;
+			productName = CloudNotes;
+			productReference = FC1DC7291DC2E0A90099F0A9 /* CloudNotes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC1DC73E1DC2E0A90099F0A9 /* CloudNotesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC1DC7561DC2E0A90099F0A9 /* Build configuration list for PBXNativeTarget "CloudNotesTests" */;
+			buildPhases = (
+				FC1DC73B1DC2E0A90099F0A9 /* Sources */,
+				FC1DC73C1DC2E0A90099F0A9 /* Frameworks */,
+				FC1DC73D1DC2E0A90099F0A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC1DC7411DC2E0A90099F0A9 /* PBXTargetDependency */,
+			);
+			name = CloudNotesTests;
+			productName = CloudNotesTests;
+			productReference = FC1DC73F1DC2E0A90099F0A9 /* CloudNotesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC1DC7491DC2E0A90099F0A9 /* CloudNotesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC1DC7591DC2E0A90099F0A9 /* Build configuration list for PBXNativeTarget "CloudNotesUITests" */;
+			buildPhases = (
+				FC1DC7461DC2E0A90099F0A9 /* Sources */,
+				FC1DC7471DC2E0A90099F0A9 /* Frameworks */,
+				FC1DC7481DC2E0A90099F0A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC1DC74C1DC2E0A90099F0A9 /* PBXTargetDependency */,
+			);
+			name = CloudNotesUITests;
+			productName = CloudNotesUITests;
+			productReference = FC1DC74A1DC2E0A90099F0A9 /* CloudNotesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC1DC7211DC2E0A80099F0A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Jonathan Rose";
+				TargetAttributes = {
+					FC1DC7281DC2E0A80099F0A9 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = X4SB288GD5;
+						ProvisioningStyle = Automatic;
+					};
+					FC1DC73E1DC2E0A90099F0A9 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = X4SB288GD5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FC1DC7281DC2E0A80099F0A9;
+					};
+					FC1DC7491DC2E0A90099F0A9 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = X4SB288GD5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FC1DC7281DC2E0A80099F0A9;
+					};
+				};
+			};
+			buildConfigurationList = FC1DC7241DC2E0A80099F0A9 /* Build configuration list for PBXProject "CloudNotes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC1DC7201DC2E0A80099F0A9;
+			productRefGroup = FC1DC72A1DC2E0A90099F0A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC1DC7281DC2E0A80099F0A9 /* CloudNotes */,
+				FC1DC73E1DC2E0A90099F0A9 /* CloudNotesTests */,
+				FC1DC7491DC2E0A90099F0A9 /* CloudNotesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC1DC7271DC2E0A80099F0A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC1DC7391DC2E0A90099F0A9 /* LaunchScreen.storyboard in Resources */,
+				FC1DC7361DC2E0A90099F0A9 /* Assets.xcassets in Resources */,
+				FC1DC7341DC2E0A90099F0A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC1DC73D1DC2E0A90099F0A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC1DC7481DC2E0A90099F0A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC1DC7251DC2E0A80099F0A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC1DC7311DC2E0A90099F0A9 /* DetailViewController.swift in Sources */,
+				FC1DC72F1DC2E0A90099F0A9 /* MasterViewController.swift in Sources */,
+				FC1DC72D1DC2E0A90099F0A9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC1DC73B1DC2E0A90099F0A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC1DC7441DC2E0A90099F0A9 /* CloudNotesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC1DC7461DC2E0A90099F0A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC1DC74F1DC2E0A90099F0A9 /* CloudNotesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC1DC7411DC2E0A90099F0A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC1DC7281DC2E0A80099F0A9 /* CloudNotes */;
+			targetProxy = FC1DC7401DC2E0A90099F0A9 /* PBXContainerItemProxy */;
+		};
+		FC1DC74C1DC2E0A90099F0A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC1DC7281DC2E0A80099F0A9 /* CloudNotes */;
+			targetProxy = FC1DC74B1DC2E0A90099F0A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC1DC7321DC2E0A90099F0A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC1DC7331DC2E0A90099F0A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC1DC7371DC2E0A90099F0A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC1DC7381DC2E0A90099F0A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC1DC7511DC2E0A90099F0A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC1DC7521DC2E0A90099F0A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC1DC7541DC2E0A90099F0A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X4SB288GD5;
+				INFOPLIST_FILE = CloudNotes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jonrosedev.CloudNotes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FC1DC7551DC2E0A90099F0A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X4SB288GD5;
+				INFOPLIST_FILE = CloudNotes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jonrosedev.CloudNotes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FC1DC7571DC2E0A90099F0A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = X4SB288GD5;
+				INFOPLIST_FILE = CloudNotesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jonrosedev.CloudNotesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudNotes.app/CloudNotes";
+			};
+			name = Debug;
+		};
+		FC1DC7581DC2E0A90099F0A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = X4SB288GD5;
+				INFOPLIST_FILE = CloudNotesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jonrosedev.CloudNotesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudNotes.app/CloudNotes";
+			};
+			name = Release;
+		};
+		FC1DC75A1DC2E0A90099F0A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = X4SB288GD5;
+				INFOPLIST_FILE = CloudNotesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jonrosedev.CloudNotesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CloudNotes;
+			};
+			name = Debug;
+		};
+		FC1DC75B1DC2E0A90099F0A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = X4SB288GD5;
+				INFOPLIST_FILE = CloudNotesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jonrosedev.CloudNotesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CloudNotes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC1DC7241DC2E0A80099F0A9 /* Build configuration list for PBXProject "CloudNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC1DC7511DC2E0A90099F0A9 /* Debug */,
+				FC1DC7521DC2E0A90099F0A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC1DC7531DC2E0A90099F0A9 /* Build configuration list for PBXNativeTarget "CloudNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC1DC7541DC2E0A90099F0A9 /* Debug */,
+				FC1DC7551DC2E0A90099F0A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC1DC7561DC2E0A90099F0A9 /* Build configuration list for PBXNativeTarget "CloudNotesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC1DC7571DC2E0A90099F0A9 /* Debug */,
+				FC1DC7581DC2E0A90099F0A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC1DC7591DC2E0A90099F0A9 /* Build configuration list for PBXNativeTarget "CloudNotesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC1DC75A1DC2E0A90099F0A9 /* Debug */,
+				FC1DC75B1DC2E0A90099F0A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC1DC7211DC2E0A80099F0A9 /* Project object */;
+}
