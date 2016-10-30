@@ -10,13 +10,13 @@ import UIKit
 
 class DetailViewController: UIViewController {
     @IBOutlet weak var descTextField: UITextField!
-    @IBOutlet weak var descriptionTextField: UITextField!
 
     @IBAction func okDescBtnClick(_ sender: AnyObject) {
         okDescBtnClickHandler()
     }
     @IBOutlet weak var detailDescriptionLabel: UILabel!
 
+    @IBOutlet var okDescBtnOutlet: UIButton!
 
     func configureView() {
         // Update the user interface for the detail item.
@@ -35,17 +35,36 @@ class DetailViewController: UIViewController {
         let aSelector : Selector = #selector(DetailViewController.lblTapped)
         let tapGesture = UITapGestureRecognizer(target: self, action: aSelector)
         detailDescriptionLabel.addGestureRecognizer(tapGesture)
-        
+        descTextField.isHidden = true
+        okDescBtnOutlet.isHidden = true
     }
     
     func okDescBtnClickHandler(){
-        
+        descTextField.resignFirstResponder()
+        updateDescription()
+    }
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+        if  detailDescriptionLabel.isHidden
+        {
+            updateDescription()
+        }
+    }
+    
+    func updateDescription(){
+        detailItem?.description = descTextField.text!
+        toggleDescriptionEditable()
+        configureView()
+    }
+    
+    func toggleDescriptionEditable(){
+        descTextField.isHidden = !descTextField.isHidden
+        okDescBtnOutlet.isHidden = !okDescBtnOutlet.isHidden
+        detailDescriptionLabel.isHidden = !detailDescriptionLabel.isHidden
     }
     
     func lblTapped(){
-        detailDescriptionLabel.isHidden = true
-//        textF.hidden = false
-//        textF.text = lbl.text
+        toggleDescriptionEditable()
     }
 
 

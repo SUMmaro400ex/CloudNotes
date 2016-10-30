@@ -13,6 +13,8 @@ class Note{
     
     var description:String
     
+    var body:String?
+    
     init() {
         createTime = Date()
         description = "New note"
