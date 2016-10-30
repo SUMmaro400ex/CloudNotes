@@ -9,7 +9,12 @@
 import UIKit
 
 class DetailViewController: UIViewController {
+    @IBOutlet weak var descTextField: UITextField!
+    @IBOutlet weak var descriptionTextField: UITextField!
 
+    @IBAction func okDescBtnClick(_ sender: AnyObject) {
+        okDescBtnClickHandler()
+    }
     @IBOutlet weak var detailDescriptionLabel: UILabel!
 
 
@@ -26,14 +31,30 @@ class DetailViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         self.configureView()
+        detailDescriptionLabel.isUserInteractionEnabled = true
+        let aSelector : Selector = #selector(DetailViewController.lblTapped)
+        let tapGesture = UITapGestureRecognizer(target: self, action: aSelector)
+        detailDescriptionLabel.addGestureRecognizer(tapGesture)
+        
     }
+    
+    func okDescBtnClickHandler(){
+        
+    }
+    
+    func lblTapped(){
+        detailDescriptionLabel.isHidden = true
+//        textF.hidden = false
+//        textF.text = lbl.text
+    }
+
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
 
-    var detailItem: NSDate? {
+    var detailItem: Note? {
         didSet {
             // Update the view.
             self.configureView()

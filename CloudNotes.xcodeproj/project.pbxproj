@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC030C5F1DC2EDB7002813D6 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC030C5E1DC2EDB7002813D6 /* Note.swift */; };
 		FC1DC72D1DC2E0A90099F0A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1DC72C1DC2E0A90099F0A9 /* AppDelegate.swift */; };
 		FC1DC72F1DC2E0A90099F0A9 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1DC72E1DC2E0A90099F0A9 /* MasterViewController.swift */; };
 		FC1DC7311DC2E0A90099F0A9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1DC7301DC2E0A90099F0A9 /* DetailViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC030C5E1DC2EDB7002813D6 /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		FC1DC7291DC2E0A90099F0A9 /* CloudNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC1DC72C1DC2E0A90099F0A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC1DC72E1DC2E0A90099F0A9 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 			children = (
 				FC1DC72C1DC2E0A90099F0A9 /* AppDelegate.swift */,
 				FC1DC72E1DC2E0A90099F0A9 /* MasterViewController.swift */,
+				FC030C5E1DC2EDB7002813D6 /* Note.swift */,
 				FC1DC7301DC2E0A90099F0A9 /* DetailViewController.swift */,
 				FC1DC7321DC2E0A90099F0A9 /* Main.storyboard */,
 				FC1DC7351DC2E0A90099F0A9 /* Assets.xcassets */,
@@ -268,6 +271,7 @@
 				FC1DC7311DC2E0A90099F0A9 /* DetailViewController.swift in Sources */,
 				FC1DC72F1DC2E0A90099F0A9 /* MasterViewController.swift in Sources */,
 				FC1DC72D1DC2E0A90099F0A9 /* AppDelegate.swift in Sources */,
+				FC030C5F1DC2EDB7002813D6 /* Note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,6 +522,7 @@
 				FC1DC7551DC2E0A90099F0A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC1DC7561DC2E0A90099F0A9 /* Build configuration list for PBXNativeTarget "CloudNotesTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +531,7 @@
 				FC1DC7581DC2E0A90099F0A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC1DC7591DC2E0A90099F0A9 /* Build configuration list for PBXNativeTarget "CloudNotesUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +540,7 @@
 				FC1DC75B1DC2E0A90099F0A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
